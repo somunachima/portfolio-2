@@ -7,8 +7,7 @@
 // }
 
 // Define fonts for body and headers
-// $body-font: "Inter";
-// $headers-font: "Inter";
+
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -20,6 +19,9 @@
 // }
 // $my-font: "Font Name"; */
 
+// Define fonts for body and headers
+$body-font: "Inter";
+$headers-font: "Inter";
 
 :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
