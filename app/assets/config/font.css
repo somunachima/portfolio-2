@@ -1,4 +1,4 @@
-// Import Google fonts
+/* // Import Google fonts
 // @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
 // @font-face {
 //   font-family: 'Inter', sans-serif;
@@ -18,7 +18,7 @@
 //        font-url('FontFile.woff') format('woff'),
 //        font-url('FontFile.ttf') format('truetype')
 // }
-// $my-font: "Font Name";
+// $my-font: "Font Name"; */
 
 
 :root { font-family: 'Inter', sans-serif; }
