@@ -3,8 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  min-height: 250px;
+  width: 100%;
   .profile-img-section img {
-    border-radius: 47%;
+    border-radius: 4.875rem;
     margin: 20px;
     margin-left: 0px;
   }
@@ -34,7 +37,7 @@
     font-size: 20px;
   }
 }
-.nav {
+nav {
   .nav {
     width: 100%
   }
@@ -47,4 +50,14 @@
     // transition: 0.3s;
     font-display: flex;
   }
+}
+.portfolio-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #E0E0E5;
+  // background-color: #0F1014;
+  min-height: 350px;
+  width: 100%;
 }

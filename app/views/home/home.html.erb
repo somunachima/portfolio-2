@@ -12,24 +12,12 @@
 </head>
 <body>
   <header>
-    <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-    </button>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Resume</a></li>
-        <li class="nav__item"><a href="https://www.linkedin.com/in/somakudu/" class="nav__link"><i class="fab fa-linkedin"></i></li>
-        <li class="nav__item"><a href="https://github.com/somunachima/" class="nav__link"><i class="fab fa-github"></i></a></li>
-      </ul>
-    </nav>
   </header>
   <!-- Introduction -->
   <section>
     <div class="section-title">
       <div class="profile-img-section">
-        <img> <%= cl_image_tag "Som_ptur5y", height: 220, width: 175 %> <img>
+        <img> <%= cl_image_tag "Som_ptur5y", height: 150, width: 123 %> <img>
       </div>
       <div class="slogan">
         <h1 >
@@ -38,7 +26,9 @@
         <h6 class="role">Fullstack developer</h6>
         <p class="btn-simple"><a href="https://www.linkedin.com/in/somakudu/">Contact me on LinkedIn →</a></p>
       </div>
-
+    </div>
+  </section>
+  <section>
       <div class="portfolio-section">
         <a href="https://www.scanher.co.uk/">
           <div class="scanher">
@@ -60,14 +50,12 @@
             <p>Yelp Clone</p>
           </div>
         </a>
-        <a href="">
+        <a href="https://github.com/somunachima/rails-task-manager">
           <div class="task-manager">
             <p>Task Manager</p>
           </div>
         </a>
       </div>
-
-    </div>
   </section>
 </body>
 </html>
