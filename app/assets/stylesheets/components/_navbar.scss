@@ -2,15 +2,14 @@
   justify-content: space-between;
   color: #0F1014;
   width: 100%;
-  height: 30px;
-
+  height: 40px;
+  align-items: center;
 
   a {
     color: #0F1014;
     opacity: 1;
     text-decoration: none;
     font-size: 15px;
-    padding: 0px 10px;
     transition: color 0.3s;
   }
   a:hover {
@@ -21,14 +20,21 @@
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+  .nav-item {
+    font-weight: 300;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+  }
 }
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+  margin-top: 25px;
+  margin-right: 0px;
 }
 
-.nav-link {
+.nav-link a {
   font-family: var(--font-inter);
-  color: white;
   font-size: 18px;
 }
