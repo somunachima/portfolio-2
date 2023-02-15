@@ -1,13 +1,19 @@
 body {
   background-color: white;
 }
-.section-title {
+.container-portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+.section-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
   min-height: 250px;
-  width: 100%;
+  width: 50%;
   .profile-img-section img {
     border-radius: 4.875rem;
     margin: 20px;
@@ -44,14 +50,15 @@ nav {
     width: 100%
   }
   a {
-    // float: right;
     text-align: center;
-    // padding: 20px;
     text-decoration: none;
     font-size: 17px;
-    // transition: 0.3s;
     font-display: flex;
   }
+}
+.portfolio-back {
+  background-color: #F9FAFF;
+  min-height: 475px;
 }
 .portfolio-section {
   display: flex;
@@ -60,21 +67,36 @@ nav {
   flex-direction: row;
   background-color: #F9FAFF;
   // background-color: #0F1014;
-  min-height: 481px;
-  width: 100%;
+  width: 50%;
   text-decoration: none;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 20px auto 100px;
+  padding: 20px;
+  gap: 20px;
   .project-card {
     color: #0F1014;
     opacity: 1;
     font-size: 15px;
-    transition: color 0.3s;
+    transition: all 0.3s;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 9px;
+    height: 200px;
+    width: 200px;
+    align-items: center;
   }
   .project-card:hover {
     opacity: 1;
     color: #FF6855;
+    // border: 2px solid #FF6855;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transform: scale(1.05);
   }
   a {
     text-decoration: none;
-    font-weight: bold;
+    text-align: center;
+    font-weight: 500;
   }
 }
