@@ -1,6 +1,9 @@
 body {
   background-color: white;
 }
+
+//INTRODUCTION SECTION
+
 .container-portfolio {
   display: flex;
   justify-content: center;
@@ -9,15 +12,18 @@ body {
 }
 .section-title {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
-  min-height: 250px;
-  width: 50%;
+  min-height: 580px;
+  width: 80%;
+  padding: 35px;
+  margin: auto;
   .profile-img-section img {
-    border-radius: 4.875rem;
+    border: 2px solid #0F1014;
     margin: 20px;
     margin-left: 0px;
+    border-radius: 4.875rem;
   }
   .slogan {
     display: flex;
@@ -25,26 +31,31 @@ body {
     justify-content: space-between;
   }
   .slogan h1 {
-    font-size: 75px;
+    font-size: 90px;
     width: 100%;
     height: 100%;
     margin: auto;
   }
+  .name {
+    color: #FF6855;
+  }
   .slogan p {
-    font-size: 13px;
+    font-size: 18px;
   }
   .btn-simple a {
-    color: #808A9D;
+    color: #0F1014;
     text-decoration: none;
     transition: all 0.3s;
+    padding-left: 3px;
+    font-weight: 300;
   }
   .btn-simple a:hover {
     color: #FF6855;
   }
-  .role {
-    font-size: 20px;
-  }
 }
+
+//NAVBAR SECTION
+
 nav {
   .nav {
     width: 100%
@@ -56,6 +67,9 @@ nav {
     font-display: flex;
   }
 }
+
+//PORTFOLIO SECTION
+
 .portfolio-back {
   background-color: #F9FAFF;
   min-height: 475px;
@@ -67,36 +81,51 @@ nav {
   flex-direction: row;
   background-color: #F9FAFF;
   // background-color: #0F1014;
-  width: 50%;
   text-decoration: none;
-  gap: 20px;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin: 20px auto 100px;
-  padding: 20px;
+  max-width: 2000px;
+  margin: auto;
   gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   .project-card {
     color: #0F1014;
     opacity: 1;
     font-size: 15px;
     transition: all 0.3s;
     background-color: white;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
     border-radius: 9px;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 500px;
     align-items: center;
+    margin: 0px 20px;
+    margin-bottom: 20px;
   }
   .project-card:hover {
     opacity: 1;
     color: #FF6855;
-    // border: 2px solid #FF6855;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
   a {
     text-decoration: none;
-    text-align: center;
+  }
+  .project-name {
+    text-align: left;
+    font-size: 28px;
     font-weight: 500;
+    color: #0F1014;
+    transition: all 0.3s;
+    padding-left: 20px;
+    margin-bottom: 0px;
+  }
+  .project-name:hover {
+    color: #FF6855;
+  }
+  .project-tags {
+    color: #0F1014;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
   }
 }

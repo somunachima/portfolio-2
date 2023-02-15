@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   root "home#home"
 
   get "resume", to: "home#resume", as: "resume"
+  get "about", to: "home#about", as: "about"
 end

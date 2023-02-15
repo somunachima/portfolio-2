@@ -5,4 +5,7 @@ class HomeController < ApplicationController
 
   def resume
   end
+
+  def about
+  end
 end
