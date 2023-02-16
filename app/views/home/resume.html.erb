@@ -9,27 +9,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
   <link rel="preconnect" href="https://rsms.me/">
   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-  <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon.ico">
 </head>
 <body>
-<header></header>
   <!-- Introduction -->
   <section class="container-resume">
-    <div class="resume-title">
-      <div class="resume-img-section">
-        <img> <%= cl_image_tag "Som_profile", height: 175, width: 150 %> <img>
-      </div>
-      <div class="resume-slogan">
-        <h1 >
-          <strong>Hi, I'm Som.</strong>
-        </h1>
-        <h6 class="resume-role">Fullstack Developer</h6>
-        <p class="btn-resume"><a href="https://www.linkedin.com/in/somakudu/" target="_blank">Contact me on LinkedIn →</a></p>
-      </div>
+    <div class="resume-slogan">
+      <h2 class="resume-name">Som Akudu</h2>
+      <h1 class="resume-title">I create beautiful products and experiences <br>for people.</h1>
     </div>
   </section>
-<section>
-  <img> <%= cl_image_tag "Techstack", height: 360, width: 985 %> <img>
+<section class="resume-full">
+  <div class="resume-profile">
+    <%= cl_image_tag "som_cv", height: 300, width: 230 %>
+    <p class="som-info">A web development bootcamp graduate who is seeking an exciting opportunity for an entry-level, full-stack software engineering position at a company who provides a dynamic and challenging environment and fosters professional growth and development.</p>
+    <p class="btn-email"><a href="mailto:somakudu@gmail.com?subject=Hello!" target="_blank"> Get in touch here →</a></p>
+  </div>
 </section>
 </body>
 </html>

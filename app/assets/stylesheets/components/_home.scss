@@ -63,7 +63,6 @@ nav {
   a {
     text-align: center;
     text-decoration: none;
-    font-size: 17px;
     font-display: flex;
   }
 }
@@ -128,5 +127,48 @@ nav {
     padding-left: 20px;
     margin-bottom: 10px;
     font-weight: 300;
+  }
+  .project-card-movie {
+    color: #0F1014;
+    opacity: 1;
+    font-size: 15px;
+    transition: all 0.3s;
+    background-color: #03BF93;
+    border-radius: 9px;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 60px;
+    text-align: center;
+  }
+  .project-card-movie:hover {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+  .fa-solid {
+    font-size: 180px;
+  }
+  .project-card-task {
+    color: #0F1014;
+    opacity: 1;
+    font-size: 15px;
+    transition: all 0.3s;
+    background-color: #FFD203;
+    border-radius: 9px;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 60px;
+    text-align: center;
+  }
+  .project-card-movie:hover {
+    opacity: 1;
+    transform: scale(1.02);
   }
 }
