@@ -20,6 +20,7 @@ body {
   padding: 35px;
   padding-left: 45px;
   padding-right: 25px;
+  padding-bottom: 20px;
   margin: 0px;
 
   .resume-title {
@@ -33,15 +34,22 @@ body {
     color: #0F1014;
     margin: 0px;
   }
+  .create {
+    color: #FF6855;
+    text-decoration: none;
+  }
 }
 
 //PROFILE
+.btn-email {
+  margin-top: 10px;
+}
 .btn-email a {
   color: #0F1014;
   text-decoration: none;
   transition: all 0.3s;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 13px;
 }
 .btn-email a:hover {
   color: #FF6855;
@@ -52,14 +60,23 @@ body {
 .resume-full img {
   border: 2px solid #0F1014;
   margin: 20px;
-  margin-left: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   border-radius: 4.875rem;
 }
-.resume-full p {
-  color: #0F1014;
-  font-size: 15px;
-  font-weight: 300;
+.resume-full {
+display: flex;
+flex-direction: row;
+  width: 22%;
+  margin: 0px;
+  .som-info {
+    color: #0F1014;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0px;
+  }
 }
+
 
 //EDUCATION
 
