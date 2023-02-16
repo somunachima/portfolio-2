@@ -1,41 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Som Akudu</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-  <link rel="preconnect" href="https://rsms.me/">
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-  <link rel="icon" type="image/png" href="/favicon.ico">
-</head>
-<body>
-  <!-- Introduction -->
-  <section class="container-resume">
-    <div class="resume-slogan">
-      <h2 class="resume-name">Som Akudu</h2>
-      <h1 class="resume-title"><strong class="create">Creating</strong> beautiful <br>products and experiences <br><u>for people.</u></h1>
-    </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Som Akudu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="icon" type="image/png" href="/favicon.ico">
+  </head>
+  <body>
+    <!-- Introduction -->
+    <section class="container-resume">
+      <div class="resume-slogan">
+        <h2 class="resume-name">Som Akudu</h2>
+        <h1 class="resume-title"><strong class="create">Creating</strong> beautiful <br>products and experiences <br><u>for people</u></h1>
+      </div>
+    </section>
+  <section class="resume-back">
+    <section class="resume-full">
+      <div class="resume-profile">
+        <%= cl_image_tag "som_cv", height: 300, width: 230 %>
+        <p class="som-info">A web development bootcamp graduate, seeking an exciting entry-level, full-stack software engineering role in a dynamic and challenging company that fosters professional growth and development.</p>
+        <p class="btn-email"><a href="mailto:somakudu@gmail.com?subject=Hello!" target="_blank"><strong>Get in touch →</strong></a></p>
+      </div>
+      <div class="resume-details">
+        <div class="subset">
+          <div class="subset-top">
+            <div class="education">
+              <h3>Education</h3>
+              <div class="resume-text">
+                <div class="date">
+                  <div class="wagon">
+                    <div class="wagon-img">
+                      <%= cl_image_tag "wagon", height: 30, width: 30 %>
+                    </div>
+                      <h6>Le Wagon London</h6>
+                    <div class="wagon-text">
+                    </div>
+                    <p>Full Stack Web Development Course (2022)</p>
+                  </div>
+                  <p><strong>October - December 2022</strong></p>
+                </div>
+
+                <div class="date">
+                  <h6>University of Manchester</h6>
+                  <p>Master of Pharmacy (2013-2017): 2.1 <br>Manchester Leadership Programme: Gold award</p>
+                </div>
+
+                <div class="date">
+                  <h6>St Margaret’s School</h6>
+                  <p>A Levels: Biology (A*), Maths (A), Chemistry (B)
+                  <br>GCSEs: 3A*’s and 6A’s with Maths (A*), Science (A*), German (A*), French (A), English (A)</p>
+                </div>
+              </div>
+            </div>
+            <div class="skills">
+              <h3>Skills</h3>
+            </div>
+          </div>
+          <div class="subset-middle">
+            <div class="jobs">
+              <h3>Experience</h3>
+            </div>
+          </div>
+          <div class="subset-bottom">
+            <div class="publications">
+              <h3>Publications</h3>
+            </div>
+            <div class="hobbies">
+              <h3>Hobbies & Interests</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </section>
-<section class="resume-full">
-  <div class="resume-profile">
-    <%= cl_image_tag "som_cv", height: 300, width: 230 %>
-    <p class="som-info">A web development bootcamp graduate, seeking an exciting entry-level, full-stack software engineering role in a dynamic and challenging company that fosters professional growth and development.</p>
-    <p class="btn-email"><a href="mailto:somakudu@gmail.com?subject=Hello!" target="_blank"> Get in touch →</a></p>
-  </div>
-  <div class="resume-details">
-    <div class="education">
-      <h3>Education</h3>
-    </div>
-    <div class="skilss">
-      <h3>Skills</h3>
-    </div>
-    <div class="jobs">
-      <h3>Experience</h3>
-    </div>
-  </div>
-</section>
-</body>
+  </body>
 </html>

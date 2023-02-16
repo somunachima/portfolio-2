@@ -11,20 +11,19 @@ body {
 //SLOGAN
 .resume-slogan{
   display: flex;
-  flex-direction: column;
   justify-content: left;
   text-align: left;
   flex-direction: column;
   min-height: 100px;
-  width: 60%;
+  width: 80%;
   padding: 35px;
-  padding-left: 45px;
+  padding-left: 0px;
   padding-right: 25px;
   padding-bottom: 20px;
-  margin: 0px;
-
+  margin: auto;
+  margin-left: 45px;
   .resume-title {
-    font-size: 60px;
+    font-size: 75px;
     margin: 0px;
   }
 
@@ -49,37 +48,166 @@ body {
   text-decoration: none;
   transition: all 0.3s;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 12px;
 }
 .btn-email a:hover {
   color: #FF6855;
 }
 .resume-profile {
-  padding-left: 45px;
+  margin-left: 0px;
+  max-width: 250px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+}
+.resume-back {
+  background-color: #F9FAFF;
+  min-height: 100px;
 }
 .resume-full img {
   border: 2px solid #0F1014;
   margin: 20px;
-  margin-left: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 10px;
   border-radius: 4.875rem;
 }
 .resume-full {
-display: flex;
-flex-direction: row;
-  width: 22%;
-  margin: 0px;
+  background-color: #f9faff;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-direction: row;
+  min-height: 100px;
+  padding: 35px;
+  padding-left: 0px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  margin: auto;
+  margin-left: 45px;
   .som-info {
     color: #0F1014;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 300;
     margin: 0px;
+  }
+  .resume-details {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .resume-details img {
+    border: 0px;
+    border-radius: 5px;
+  }
+}
+
+//SUBSETS of SKILLS & EXPERIENCE etc
+.subset {
+  display: flex;
+  flex-direction: column;
+}
+
+.subset-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.subset-middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.subset-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.resume-text {
+  color: #0F1014;
+  font-size: 12px;
+  font-weight: 300;
+  h6 {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .date {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+//EDUCATION
+.education {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  text-align: left;
+  width: 500px;
+  min-height: 150px;
+  h3 {
+    color: #0F1014;
+    font-size: 18px;
+
   }
 }
 
 
-//EDUCATION
-
-//SKILL
+//SKILLS
+.skills {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  text-align: left;
+  // border-bottom: 2px solid #0F1014;
+  width: 500px;
+  min-height: 150px;
+  h3 {
+    font-size: 18px;
+  }
+}
 
 //EXPERIENCE
+.jobs {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  text-align: left;
+  // border-bottom: 2px solid #0F1014;
+  width: 1000px;
+  min-height: 150px;
+  h3 {
+    font-size: 18px;
+  }
+}
+
+//PUBLICATION
+.publications {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  text-align: left;
+  // border-bottom: 2px solid #0F1014;
+  width: 500px;
+  min-height: 150px;
+  h3 {
+    font-size: 18px;
+  }
+}
+
+
+//HOBBIES
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  text-align: left;
+  // border-bottom: 2px solid #0F1014;
+  width: 500px;
+  min-height: 150px;
+  h3 {
+    font-size: 18px;
+  }
+}

@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  min-height: 580px;
+  min-height: 500px;
   width: 80%;
   padding: 35px;
   margin: auto;
@@ -31,7 +31,7 @@ body {
     justify-content: space-between;
   }
   .slogan h1 {
-    font-size: 90px;
+    font-size: 75px;
     width: 100%;
     height: 100%;
     margin: auto;
@@ -51,6 +51,7 @@ body {
   }
   .btn-simple a:hover {
     color: #FF6855;
+    transform: scale(1.1);
   }
 }
 
@@ -90,7 +91,7 @@ nav {
   .project-card {
     color: #0F1014;
     opacity: 1;
-    font-size: 15px;
+    font-size: 12px;
     transition: all 0.3s;
     background-color: white;
     border-radius: 9px;
@@ -104,14 +105,14 @@ nav {
   .project-card:hover {
     opacity: 1;
     color: #FF6855;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
   a {
     text-decoration: none;
   }
   .project-name {
     text-align: left;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 500;
     color: #0F1014;
     transition: all 0.3s;
@@ -127,11 +128,12 @@ nav {
     padding-left: 20px;
     margin-bottom: 10px;
     font-weight: 300;
+    font-size: 12px;
   }
   .project-card-movie {
     color: #0F1014;
     opacity: 1;
-    font-size: 15px;
+    font-size: 12px;
     transition: all 0.3s;
     background-color: #03BF93;
     border-radius: 9px;
@@ -146,7 +148,7 @@ nav {
   }
   .project-card-movie:hover {
     opacity: 1;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
   .fa-solid {
     font-size: 180px;
@@ -154,7 +156,7 @@ nav {
   .project-card-task {
     color: #0F1014;
     opacity: 1;
-    font-size: 15px;
+    font-size: 12px;
     transition: all 0.3s;
     background-color: #FFD203;
     border-radius: 9px;
@@ -167,8 +169,8 @@ nav {
     padding: 60px;
     text-align: center;
   }
-  .project-card-movie:hover {
+  .project-card-task:hover {
     opacity: 1;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 }
