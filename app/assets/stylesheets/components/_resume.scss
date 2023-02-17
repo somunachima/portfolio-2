@@ -101,6 +101,9 @@ body {
   .resume-details img {
     border: 0px;
     border-radius: 5px;
+    margin: 0px;
+    margin-right: 5px;
+    margin-top: 3px;
   }
 }
 
@@ -129,13 +132,108 @@ body {
   color: #0F1014;
   font-size: 12px;
   font-weight: 300;
-  h6 {
-    font-size: 12px;
-    margin-bottom: 0px;
-  }
-  .date {
+  .edu-sub {
     display: flex;
     justify-content: space-between;
+    width: 500px;
+  }
+  .wagon {
+    display: flex;
+    justify-content: top;
+    flex-direction: row;
+  }
+  .wagon-text {
+    margin-bottom: 0px;
+  }
+  .wagon-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+  .wagon-img {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+  .date {
+    margin-bottom: 0px;
+  }
+
+
+  .manc {
+    display: flex;
+    justify-content: top;
+    flex-direction: row;
+  }
+  .manc-text {
+    margin-bottom: 0px;
+    width: 455px;
+  }
+  .manc-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+  .manc-img {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+
+  .smb {
+    display: flex;
+    justify-content: top;
+    flex-direction: row;
+  }
+  .smb-text {
+    margin-bottom: 0px;
+    width: 455px;
+  }
+  .smb-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+  .smb-img {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+
+
+  .ijpp {
+    display: flex;
+    justify-content: top;
+    flex-direction: row;
+  }
+  .ijpp-text {
+    margin-bottom: 0px;
+    width: 455px;
+  }
+  .ijpp-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+  .ijpp-img {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+  .ijpp-date {
+    text-decoration: none;
+    text-emphasis: none;
+    color: #0F1014;
+    margin-bottom: 0px;
+  }
+
+  .ijpp-date:hover {
+    color: #FF6855;
   }
 }
 
@@ -143,7 +241,6 @@ body {
 .education {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   text-align: left;
   width: 500px;
   min-height: 150px;
@@ -159,13 +256,32 @@ body {
 .skills {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   text-align: left;
-  // border-bottom: 2px solid #0F1014;
   width: 500px;
   min-height: 150px;
+  margin-left: 15px;
   h3 {
     font-size: 18px;
+  }
+}
+.skills-sub {
+  display: flex;
+  padding: 5px 0;
+  .skills-title {
+
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  li {
+    font-size: 12px;
+    line-height: 25px;
+    list-style-type: none;
+    border: 1px solid #0F1014;
+    border-radius: 4rem;
+    padding: 0 10px;
   }
 }
 
@@ -173,9 +289,7 @@ body {
 .jobs {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   text-align: left;
-  // border-bottom: 2px solid #0F1014;
   width: 1000px;
   min-height: 150px;
   h3 {
@@ -187,9 +301,7 @@ body {
 .publications {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   text-align: left;
-  // border-bottom: 2px solid #0F1014;
   width: 500px;
   min-height: 150px;
   h3 {
@@ -202,11 +314,10 @@ body {
 .hobbies {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   text-align: left;
-  // border-bottom: 2px solid #0F1014;
   width: 500px;
   min-height: 150px;
+  margin-left: 15px;
   h3 {
     font-size: 18px;
   }
