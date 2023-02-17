@@ -16,13 +16,14 @@
     <section class="container-resume">
       <div class="resume-slogan">
         <h2 class="resume-name">Som Akudu</h2>
-        <h1 class="resume-title"><strong class="create">Creating</strong> beautiful <br>products and experiences <br><u>for people</u></h1>
+        <h1 class="resume-title"><strong class="create">Creating</strong> beautiful <br>products and experiences <br><u>for people</u>.</h1>
       </div>
     </section>
   <section class="resume-back">
     <section class="resume-full">
       <div class="resume-profile">
         <%= cl_image_tag "som_cv", height: 300, width: 230 %>
+        <h3>Bio</h3>
         <p class="som-info">A web development bootcamp graduate, seeking an exciting entry-level, full-stack software engineering role in a dynamic and challenging company that fosters professional growth and development.</p>
         <p class="btn-email"><a href="mailto:somakudu@gmail.com?subject=Hello!" target="_blank"><strong>Get in touch →</strong></a></p>
       </div>
@@ -83,7 +84,7 @@
               <h3>Skills</h3>
               <div class="resume-text">
                 <div class="skills-sub">
-                  <p><strong>Technical</strong></p>
+                  <p class="skills-title"><strong>Technical</strong></p>
                   <ul>
                     <li>Ruby</li>
                     <li>Ruby on Rails</li>
@@ -94,6 +95,7 @@
                     <li>Github</li>
                     <li>Git</li>
                     <li>Heroku</li>
+                    <li>Cloudinary</li>
                     <li>OOP</li>
                     <li>REST API</li>
                     <li>MVC</li>
@@ -110,7 +112,7 @@
                   </ul>
                 </div>
                 <div class="skills-sub">
-                  <p><strong>Strategic</strong></p>
+                  <p class="skills-title"><strong>Strategic</strong></p>
                   <ul>
                     <li>Product Launch</li>
                     <li>Branding</li>
@@ -126,37 +128,121 @@
             </div>
           </div>
           <div class="subset-middle">
-            <div class="jobs">
-              <h3>Experience</h3>
+            <div class="projects">
+              <h3>Notable Projects</h3>
               <div class="resume-text">
-              </div>
-            </div>
-          </div>
-          <div class="subset-bottom">
-            <div class="publications">
-              <h3>Publications</h3>
-              <div class="resume-text">
-                <div class="edu-sub">
-                  <div class="ijpp">
-                    <div class="ijpp-img">
-                      <%= cl_image_tag "ijpp", height: 40, width: 40 %>
+                <div class="project-sub">
+                  <div class="proj">
+                    <div class="proj-img">
+                      <%= cl_image_tag "scanher-logo", height: 40, width: 40 %>
                     </div>
-                    <div class="ijpp-text">
-                      <div class="ijpp-title">
-                        <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ijpp.12442" class="ijpp-date">
-                          <p class="ijpp-date"><strong>International Journal of Pharmacy Practice</strong></p>
+                    <div class="proj-text">
+                      <div class="proj-title">
+                        <a href="https://www.scanher.co.uk/" class="proj-link">
+                          <p class="date"><strong>scan<em>Her</em></strong></p>
                         </a>
-                        <p class="date"><strong>April 2018</strong></p>
                       </div>
-                      <p>Medicines use in the emergency department: exploring professionals’ perceptions</p>
+                        <p class="proj-info">The platform allows women to book an appointment & scan with a specialist without a GP referral and waiting lists. Patients can also speak with clinicians directly & receive digital results through the platform.</p>
+                      <div class="proj-skills">
+                        <ul>
+                          <li>Ruby</li>
+                          <li>Ruby on Rails</li>
+                          <li>JavaScript</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Bootstrap</li>
+                          <li>Figma</li>
+                          <li>Heroku</li>
+                          <li>Trello</li>
+                          <li>Cloudinary</li>
+                          <li>GitHub</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="proj">
+                    <div class="proj-img">
+                      <%= cl_image_tag "gyota-logo", height: 40, width: 40 %>
+                    </div>
+                    <div class="proj-text">
+                      <div class="proj-title">
+                        <a href="https://github.com/AranSeehra/gyota" class="proj-link">
+                          <p class="date"><strong>Get Your Own Teaching Assistant</strong></p>
+                        </a>
+                      </div>
+                        <p class="proj-info">A website where people can learn how to code could search for a teacher in their local area and book a lesson. Customers can also rate and write reviews about their lessons with teachers.</p>
+                      <div class="proj-skills">
+                        <ul>
+                          <li>Ruby</li>
+                          <li>Ruby on Rails</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Bootstrap</li>
+                          <li>Figma</li>
+                          <li>Heroku</li>
+                          <li>Cloudinary</li>
+                          <li>GitHub</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="hobbies">
-              <h3>Hobbies & Interests</h3>
-              <div class="resume-text">
+          </div>
+          <div class="subset-bottom">
+            <div class="bottom-left">
+              <div class="jobs">
+                <h3>Experience</h3>
+                <div class="resume-text">
+                  <div class="exp-sub">
+                    <div class="exp">
+                      <div class="exp-img">
+                        <%= cl_image_tag "wagon", height: 40, width: 40 %>
+                      </div>
+                      <div class="exp-text">
+                        <div class="exp-title">
+                          <p class="date"><strong>Teaching Assistant</strong></p>
+                          <p class="date"><strong>Jan 2023 - present</strong></p>
+                        </div>
+                        <p class="exp-name"><em>Le Wagon London</em></p>
+                        <ul class="exp-info">
+                          <li>Helping ~30 students understand and solve coding challenges</li>
+                          <li>Debugging code written in a variety of styles</li>
+                          <li>Consolidating my knowledge of developing with JavaScript, Ruby on Rails and SQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="publications">
+                <h3>Publications</h3>
+                <div class="resume-text">
+                  <div class="edu-sub">
+                    <div class="ijpp">
+                      <div class="ijpp-img">
+                        <%= cl_image_tag "ijpp", height: 40, width: 40 %>
+                      </div>
+                      <div class="ijpp-text">
+                        <div class="ijpp-title">
+                          <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ijpp.12442" class="ijpp-date">
+                            <p class="ijpp-date"><strong>International Journal of Pharmacy Practice</strong></p>
+                          </a>
+                          <p class="date"><strong>April 2018</strong></p>
+                        </div>
+                        <p>Medicines use in the emergency department: exploring professionals’ perceptions</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-right">
+              <div class="hobbies">
+                <h3>Hobbies & Interests</h3>
+                <div class="resume-text">
+                </div>
               </div>
             </div>
           </div>

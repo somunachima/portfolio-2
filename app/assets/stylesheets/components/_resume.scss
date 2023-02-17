@@ -47,7 +47,7 @@ body {
   color: #0F1014;
   text-decoration: none;
   transition: all 0.3s;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 12px;
 }
 .btn-email a:hover {
@@ -60,6 +60,10 @@ body {
   align-items: left;
   justify-content: left;
   flex-direction: column;
+  h3 {
+    color: #0F1014;
+    font-size: 18px;
+  }
 }
 .resume-back {
   background-color: #F9FAFF;
@@ -95,7 +99,7 @@ body {
   }
   .resume-details {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .resume-details img {
@@ -127,7 +131,16 @@ body {
   display: flex;
   flex-direction: row;
 }
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-right {
+  display: flex;
+  flex-direction: row;
+}
 
+//EDUCATION
 .resume-text {
   color: #0F1014;
   font-size: 12px;
@@ -150,6 +163,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
     margin-bottom: 0px;
+    font-weight: 350;
   }
   .wagon-img {
     display: flex;
@@ -175,6 +189,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
     margin-bottom: 0px;
+    font-weight: 350;
   }
   .manc-img {
     display: flex;
@@ -197,6 +212,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
     margin-bottom: 0px;
+    font-weight: 350;
   }
   .smb-img {
     display: flex;
@@ -219,6 +235,7 @@ body {
     justify-content: space-between;
     flex-direction: row;
     margin-bottom: 0px;
+    font-weight: 350;
   }
   .ijpp-img {
     display: flex;
@@ -244,10 +261,10 @@ body {
   text-align: left;
   width: 500px;
   min-height: 150px;
+  margin-bottom: 15px;
   h3 {
     color: #0F1014;
     font-size: 18px;
-
   }
 }
 
@@ -259,21 +276,24 @@ body {
   text-align: left;
   width: 500px;
   min-height: 150px;
-  margin-left: 15px;
+  margin-left: 50px;
+  margin-bottom: 15px;
   h3 {
     font-size: 18px;
   }
 }
 .skills-sub {
   display: flex;
-  padding: 5px 0;
   .skills-title {
-
+    font-weight: 350;
+    width: 60px
   }
   ul {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    width: 540px;
+    padding-left: 12px;
   }
   li {
     font-size: 12px;
@@ -285,15 +305,124 @@ body {
   }
 }
 
+//PROJECTS
+.projects {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 1030px;
+  min-height: 150px;
+  margin-bottom: 15px;
+  h3 {
+    font-size: 18px;
+  }
+  .project-sub {
+    display: flex;
+    justify-content: space-between;
+  }
+  .proj {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  .proj-info {
+    margin-bottom: 8px;
+    width: 450px;
+  }
+  .proj-text {
+    margin-bottom: 0px;
+  }
+  .proj-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0px;
+    font-weight: 350;
+  }
+  .proj-img {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+  .date {
+    margin-bottom: 0px;
+  }
+  .proj-skills {
+    display: flex;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      width: 500px;
+      padding-left: 0px;
+    }
+    li {
+      font-size: 12px;
+      line-height: 25px;
+      list-style-type: none;
+      border: 1px solid #0F1014;
+      border-radius: 4rem;
+      padding: 0 10px;
+    }
+  }
+  .proj-link {
+    text-decoration: none;
+    text-emphasis: none;
+    color: #0F1014;
+    margin-bottom: 0px;
+  }
+
+  .proj-link:hover {
+    color: #FF6855;
+  }
+}
+
 //EXPERIENCE
 .jobs {
   display: flex;
   flex-direction: column;
   text-align: left;
-  width: 1000px;
+  width: 500px;
   min-height: 150px;
+  margin-bottom: 15px;
   h3 {
     font-size: 18px;
+  }
+  .exp-sub {
+    display: flex;
+    justify-content: space-between;
+    width: 955px;
+  }
+  .exp {
+    display: flex;
+    justify-content: top;
+    flex-direction: row;
+    width: 500px;
+  }
+  .exp-text {
+    margin-bottom: 0px;
+
+  }
+  .exp-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0px;
+    font-weight: 350;
+  }
+  .exp-img {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+  }
+  .date {
+    margin-bottom: 0px;
+  }
+  .exp-name {
+    margin-bottom: 0px;
+  }
+  .exp-info {
+    padding-left: 10px;
   }
 }
 
@@ -304,6 +433,7 @@ body {
   text-align: left;
   width: 500px;
   min-height: 150px;
+  margin-bottom: 15px;
   h3 {
     font-size: 18px;
   }
@@ -317,7 +447,8 @@ body {
   text-align: left;
   width: 500px;
   min-height: 150px;
-  margin-left: 15px;
+  margin-left: 50px;
+  margin-bottom: 15px;
   h3 {
     font-size: 18px;
   }
