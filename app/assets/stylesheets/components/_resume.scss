@@ -8,7 +8,7 @@ body {
   justify-content: left;
   text-align: left;
   flex-direction: column;
-  min-height: 100px;
+  min-height: 90px;
   width: 80%;
   padding: 35px;
   padding-left: 0px;
@@ -31,20 +31,33 @@ body {
     color: #FF6855;
     text-decoration: none;
   }
+  .btn-email {
+    margin-top: 10px;
+  }
+  .btn-email a {
+    color: #0F1014;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .btn-email a:hover {
+    color: #FF6855;
+  }
 }
 
 //PROFILE
-.btn-email {
+.btn-resume {
   margin-top: 10px;
 }
-.btn-email a {
+.btn-resume a {
   color: #0F1014;
   text-decoration: none;
   transition: all 0.3s;
   font-weight: 350;
   font-size: 12px;
 }
-.btn-email a:hover {
+.btn-resume a:hover {
   color: #FF6855;
 }
 .resume-profile {
@@ -456,6 +469,7 @@ body {
   }
   .hob-sub {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     width: 500px;
   }

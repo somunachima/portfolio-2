@@ -1,0 +1,116 @@
+//CONTAINERS
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: row;
+  min-height: 330px;
+  background-color: #F9FAFF;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.mural-container {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.container-top {
+  padding-left: 45px;
+  padding-right: 45px;
+
+}
+.container-middle {
+  background-color: #F9FAFF;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.container-left {
+  width: 50%;
+}
+.container-right {
+  width: 50%;
+}
+
+//TO THE RIGHT OF SLOGAN
+
+
+//SLOGAN
+
+.about-slogan {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+  min-height: 90px;
+  .slogan {
+    width: 100%;
+  }
+  .slogan-title {
+    font-size: 72px;
+    margin: 0px;
+    width: 50%;
+  }
+  .about-name {
+    color: #FF6855;
+    text-decoration: none;
+  }
+  .btn-about {
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .btn-about a {
+    color: #0F1014;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .btn-about a:hover {
+    color: #FF6855;
+  }
+}
+
+//DETAILS
+.som-detes {
+}
+
+//ABOUT
+.background {
+  width: 50%;
+  h3 {
+    color: #0F1014;
+    font-size: 18px;
+  }
+  .som-about {
+    width: 250px;
+    color: #0F1014;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+  }
+  img {
+  border: 2px solid #0F1014;
+  border-radius: 4.875rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+}
+
+//COMMUNITIES
+
+//PICTURES
+.background {
+  width: 50%;
+}
+
+//LIKES
+
+//LEARNING
