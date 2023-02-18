@@ -23,6 +23,10 @@
   padding-top: 35px;
 }
 .container-top {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-direction: row;
   padding-left: 45px;
   padding-right: 45px;
 
@@ -31,16 +35,20 @@
   background-color: #F9FAFF;
   padding-left: 45px;
   padding-right: 45px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
 }
 .container-left {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 .container-right {
   width: 50%;
+  display: flex;
+  flex-direction: row;
 }
-
-//TO THE RIGHT OF SLOGAN
-
 
 //SLOGAN
 
@@ -54,9 +62,9 @@
     width: 100%;
   }
   .slogan-title {
-    font-size: 72px;
+    font-size: 75px;
     margin: 0px;
-    width: 50%;
+    width: 100%;
   }
   .about-name {
     color: #FF6855;
@@ -80,11 +88,17 @@
 
 //DETAILS
 .som-detes {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-direction: row;
 }
 
 //ABOUT
 .background {
   width: 50%;
+  display: flex;
+  flex-direction: column;
   h3 {
     color: #0F1014;
     font-size: 18px;
@@ -107,10 +121,78 @@
 //COMMUNITIES
 
 //PICTURES
-.background {
+.pictures {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  .about-profile {
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    color: #0F1014;
+    font-size: 18px;
+  }
+  .som-about {
+    width: 250px;
+    color: #0F1014;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+  }
+  img {
+  border: 2px solid #0F1014;
+  border-radius: 4.875rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
 }
 
 //LIKES
+.likes {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  h3 {
+    color: #0F1014;
+    font-size: 18px;
+  }
+  .som-about {
+    width: 250px;
+    color: #0F1014;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+  }
+  img {
+  border: 2px solid #0F1014;
+  border-radius: 4.875rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+}
 
 //LEARNING
+.learning {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  h3 {
+    color: #0F1014;
+    font-size: 18px;
+  }
+  .som-about {
+    width: 250px;
+    color: #0F1014;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0px;
+  }
+  img {
+  border: 2px solid #0F1014;
+  border-radius: 4.875rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  }
+}
