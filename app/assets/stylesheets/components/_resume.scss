@@ -1,24 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
 }
 
 //SLOGAN
 .resume-slogan{
+  background-color: white;
   display: flex;
   justify-content: left;
   text-align: left;
   flex-direction: column;
-  min-height: 90px;
+  height: 100%;
   width: 80%;
-  padding: 35px;
+  // padding-top: 35px;
   padding-left: 0px;
-  padding-right: 25px;
+  // padding-right: 45px;
   padding-bottom: 20px;
-  margin: auto;
+  // margin: auto;
   margin-left: 45px;
   .resume-title {
     font-size: 75px;
     margin: 0px;
+    width: 100%;
   }
 
   .resume-name {
@@ -26,6 +38,7 @@ body {
     font-weight: 500;
     color: #0F1014;
     margin: 0px;
+    width: 100%;
   }
   .create {
     color: #FF6855;
@@ -45,7 +58,12 @@ body {
     color: #FF6855;
   }
 }
-
+.top-back-resume {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding-top: 35px;
+}
 //PROFILE
 .btn-resume {
   margin-top: 10px;
@@ -82,7 +100,7 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 10px;
-  border-radius: 4.875rem;
+  border-radius: 15%;
 }
 .resume-full {
   background-color: #f9faff;
@@ -91,6 +109,7 @@ body {
   text-align: left;
   flex-direction: row;
   min-height: 100px;
+  // min-width: 1560px;
   padding: 35px;
   padding-left: 0px;
   padding-right: 25px;
@@ -338,7 +357,7 @@ body {
   }
   .proj-info {
     margin-bottom: 8px;
-    width: 450px;
+    width: 400px;
   }
   .proj-text {
     margin-bottom: 0px;
@@ -364,7 +383,7 @@ body {
       display: flex;
       flex-wrap: wrap;
       gap: 5px;
-      width: 500px;
+      width: 450px;
       padding-left: 0px;
     }
     li {
