@@ -25,7 +25,7 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-# gem "jbuilder"
+gem "jbuilder"
 
 gem "dotenv-rails", groups: [:development, :test]
 
@@ -47,12 +47,9 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 gem "sassc-rails"
 
-# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-gem "image_processing", "~> 1.2"
-
+gem "devise"
+gem "autoprefixer-rails"
 gem "simple_form", github: "heartcombo/simple_form"
-
-gem "cloudinary"
 
 gem "font-awesome-sass", "~> 6.1"
 
@@ -78,3 +75,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
+gem "image_processing", "~> 1.2"
+
+gem "cloudinary"
