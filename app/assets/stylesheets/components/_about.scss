@@ -160,6 +160,7 @@
     font-size: 12px;
     font-weight: 300;
     margin: 0px;
+    margin-bottom: 10px;
   }
   img {
     border: 2px solid #0F1014;
@@ -170,6 +171,17 @@
 }
 
 //COMMUNITIES
+.background {
+  .som-about a {
+    color: #0F1014;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 350;
+  }
+  .som-about a:hover {
+    color: #FF6855;
+  }
+}
 
 //PICTURES
 .pictures {
@@ -218,6 +230,16 @@
     font-size: 12px;
     font-weight: 300;
     margin: 0px;
+    margin-bottom: 10px;
+  }
+  .som-about a {
+    color: #0F1014;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 350;
+  }
+  .som-about a:hover {
+    color: #FF6855;
   }
   img {
     border: 2px solid #0F1014;
@@ -243,6 +265,22 @@
     font-size: 12px;
     font-weight: 300;
     margin: 0px;
+    margin-bottom: 10px;
+  }
+  .som-about a {
+    color: #0F1014;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 350;
+  }
+  .som-about a:hover {
+    color: #FF6855;
+  }
+  img {
+    border: 2px solid #0F1014;
+    border-radius: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   img {
   border: 2px solid #0F1014;
